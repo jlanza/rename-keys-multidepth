@@ -1,0 +1,29 @@
+{
+  "name": "rename-keys-multidepth",
+  "version": "0.9.0",
+  "description": "Rename keys in object until a level of depth",
+  "keywords": ["rename", "depth", "deep", "keys", "objects", "properties"],
+  "homepage": "https://github.com/jlanza/rename-keys-multidepth",
+  "author": {
+    "name": "Jorge Lanza <jlanza@tlmat.unican.es>",
+    "url": "https://github.com/jlanza"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jlanza/rename-keys-multidepth.git"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "lib.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jlanza/rename-keys-multidepth/issues"
+  },
+  "license": {
+	 "type": "MIT",
+   "url": "https://github.com/jlanza/rename-keys-multidepth/blob/master/LICENSE"
+  }
+}
