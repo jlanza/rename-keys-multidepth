@@ -14,7 +14,7 @@ var rename = require('rename-keys-multidepth');
 rename(object, function, level);
 ```
 
-** Arguments **
+**Arguments**
 * `object {Object}`: the object to iterate over.
 * `function {Function}`: the function to use to rename each own enumerable property of `object`.
 * `level {Integer}`: the maximum level the renaming is done. By default is set to rename in the whole object. Level count starts by 0.
@@ -56,4 +56,5 @@ Copyright (c) 2016, Jorge Lanza. Released under the MIT license
 
 ## Acknowledgments
 Thanks to [Jon Schlinkert](https://github.com/jonschlinkert/) for providing the basics to start this small project.
-Thanks to [Shamasis Bhattacharya](http://www.shamasis.net/) from one of his his [blog posts](http://www.shamasis.net/2011/08/infinite-ways-to-detect-array-in-javascript/) I took the `isArray` function.
+
+Thanks to [Shamasis Bhattacharya](http://www.shamasis.net/) from one of his his [blog posts](http://www.shamasis.net/2011/08/infinite-ways-to-detect-array-in-javascript/) I took the `isArray()` function.
